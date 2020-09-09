@@ -1,0 +1,62 @@
+.section__main-menu-btn {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.section__main-menu-btn:hover {
+    background-color: blue;
+    padding: 10px;
+    }
+
+.section__dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.section__dropdown-child {
+    display: none;
+}
+
+.section__dropdown-child a {
+    display: block;
+}
+
+.section__dropdown:hover .section__dropdown-child {
+    display: block;
+}
+
+.link {
+  padding: 3px;
+  color: brown;
+}
+
+.header__title {
+  color: orange;
+}
+
+.section__title {
+  text-decoration-line: underline;
+  text-decoration-color: pink;
+  color: blue;
+}
+
+.footer__title {
+  color: red;
+}
+
+.header__subtitle {
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+address {
+  text-align: right;
+}
+.footer_mas {
+  font-size: large;
+}
+h1 {
+  margin-left: 40px;
+  font-weight: 800;
+}
